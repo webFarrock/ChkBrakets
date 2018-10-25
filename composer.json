@@ -1,7 +1,9 @@
 {
     "name": "webfarrock/brackets-chk",
     "description": "Package to check if all brackets correct",
-    "autolead": {
-        "classmap": ["src"]
+    "classmap": {
+        "classmap": [
+            "src/"
+        ]
     }
 }
