@@ -1,8 +1,7 @@
 {
     "name": "webfarrock/brackets-chk",
     "description": "Package to check if all brackets correct",
-    "require": {
-        "php": ">=5.4.0"
-    },
-    "autolead": ["src"]
+    "autolead": {
+        "classmap": ["src"]
+    }
 }
