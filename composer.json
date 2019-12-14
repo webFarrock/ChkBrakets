@@ -2,8 +2,8 @@
     "name": "webfarrock/brackets-chk",
     "description": "Package to check if all brackets correct",
     "autoload": {
-        "classmap": [
-            "src"
-        ]
+        "psr-4": {
+            "Webfarrock\\": "src/"
+        }
     }
 }
