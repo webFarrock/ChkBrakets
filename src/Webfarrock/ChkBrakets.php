@@ -1,4 +1,5 @@
 <?
+namespace Webfarrock;
 
 class ChkBrakets
 {
