@@ -25,7 +25,7 @@ class ChkBrakets
     public static function run($in)
     {
         if (!self::isValid($in)) {
-            throw new InvalidArgumentException('Input was: '.$in);
+            throw new \InvalidArgumentException('Input was: '.$in);
         }
 
         $in = self::clear($in);
